@@ -5,6 +5,8 @@ import ConditionalRender from "./ConditionalRender";
 import ToDo from "./ToDoList";
 import Timer from "./UeEffect";
 import Context from "./ContextAPI";
+import CustomHooks from "./CustomHooks";
+import Routing from "./Routing";
 
 
 function Hello(){
@@ -21,6 +23,8 @@ return(
 <ToDo/>
 <Timer/>
 <Context/>
+<CustomHooks/>
+<Routing/>
 </div>
 )}
 export default Hello;

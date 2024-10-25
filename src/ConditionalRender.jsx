@@ -4,7 +4,7 @@ function ConditionalRender({ islogin }) {
     const [showMessage, setShowMessage] = useState(true);
 
     const handleClick = () => {
-        setShowMessage(true);
+        setShowMessage(false);
     };
 
     return (
